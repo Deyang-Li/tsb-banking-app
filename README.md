@@ -12,8 +12,10 @@ In postman, you can test the 3 exposed APIs:
 
 ### `curl -xxx`
 
-`curl --location 'http://localhost:8080/tsb/banking/accounts?customerNumber=123456&customerUniqueId=CU0001'
+`curl --location 'http://localhost:8080/tsb/banking/accounts?customerNumber=123456&customerUniqueId=CU0001'`
+
 `curl --location 'http://localhost:8080/tsb/banking/transactions?accountId=1'`
+
 `curl --location 'http://localhost:8080/tsb/banking/transfer' \
 --header 'Content-Type: application/json' \
 --data '{
