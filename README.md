@@ -23,3 +23,17 @@ In postman, you can test the 3 exposed APIs:
     "accountToId": 2,
     "amount": 100.0
 }'`
+
+## Connect to database
+
+URL
+
+`jdbc:h2:mem:testdb`
+
+`http://localhost:8080/h2-console`
+
+Username
+
+`sa`
+
+No password
